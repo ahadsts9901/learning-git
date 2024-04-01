@@ -45,4 +45,8 @@
 | git checkout -b branchName | create new branch |
 | git checkout branchName | switch branch |
 | git branch | see all branches in git repository |
+| git branch -v | see all branches with their last commit |
 | git merge "branchNameToMergeWith" | merge current branch with provided named branch |
+| git branch --merged | see all merged branches |
+| git branch --no-merged | see all not merged branches |
+| git branch -d branchName | delete branch ( give error if not merged replace "-d" with "-D" ) |
