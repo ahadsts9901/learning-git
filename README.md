@@ -6,8 +6,12 @@
 | git init   | initialize a new git repository  |
 | git add --a / git add . / git add fileName | add files to git|
 | git commit -m "your-commit" | commits your files or changes |
+| git remote add origin "githubRepositoryUrl" | add url to github repository ( you can also replace "origin" from any name ) |
+| git remote | see all the urls ( origin or any name ) |
+| git remote -v | see remote methods for push or pull |
+| 
 | git push | push the changes to github repository |
-| git pull | pull the changes from firhub repository that you haven't locally |
+| git pull | pull the changes from github repository which is opned in your machine |
 | git log | list of all commits of repository |
 | rmdir /s /q .git | deletes the .git folder ( for windows ) |
 | git clone "github repository url" | clone the github repository |
