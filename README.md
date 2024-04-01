@@ -9,7 +9,6 @@
 | git remote add origin "githubRepositoryUrl" | add url to github repository ( you can also replace "origin" from any name ) |
 | git remote | see all the urls ( origin or any name ) |
 | git remote -v | see remote methods for push or pull |
-| 
 | git push | push the changes to github repository |
 | git pull | pull the changes from github repository which is opned in your machine |
 | git log | list of all commits of repository |
@@ -37,4 +36,3 @@
 | git restore --staged fileName | unstage file |
 | git checkout -- fileName | get all the data from previous commit for that file ( if you delete accidentally ) |
 | git checkout -f | get all the data from previous commit for all files |
-|
