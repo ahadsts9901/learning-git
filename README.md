@@ -2,6 +2,8 @@
 
 | Commands   | Purpose |
 |------------|---------------------------------------------|
+| git config --global user.name "your user name" | set userName to git |
+| git config --global user.email "your user email" | set email to git |
 | git status | checks the status of current git repository |
 | git init   | initialize a new git repository  |
 | git add --a / git add . / git add fileName | add files to git|
@@ -37,3 +39,4 @@
 | git restore --staged fileName | unstage file |
 | git checkout -- fileName | get all the data from previous commit for that file ( if you delete accidentally ) |
 | git checkout -f | get all the data from previous commit for all files |
+|git config --global alias.ci commit | for custom command ( this is just an example you can search it ) |
