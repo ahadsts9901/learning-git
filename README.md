@@ -1,4 +1,6 @@
-### Learning Git
+# Learning Git
+
+## [Youtube Tutotial Playlist](https://youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi&si=sPqJZCR4L3C1MPIo)
 
 | Commands   | Purpose |
 |------------|---------------------------------------------|
@@ -40,3 +42,7 @@
 | git checkout -- fileName | get all the data from previous commit for that file ( if you delete accidentally ) |
 | git checkout -f | get all the data from previous commit for all files |
 |git config --global alias.ci commit | for custom command ( this is just an example you can search it ) |
+| git checkout -b branchName | create new branch |
+| git checkout branchName | switch branch |
+| git branch | see all branches in git repository |
+| git merge "branchNameToMergeWith" | merge current branch with provided named branch |
