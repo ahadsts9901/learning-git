@@ -23,6 +23,9 @@
 | rmdir /s /q .git | deletes the .git folder ( for windows ) |
 | git clone "github repository url" | clone the github repository |
 | git clone "github repository url" "custom name" | clone the github repository named with your custom name |
+| git clone --mirror "repositoryUrl" | clone github repository with all branches |
+| git fetch origin | fetch all the branches of a repository |
+| git checkout -b "localBranchName" origin/"remoteBranchName" | clone a specific branch to your local |
 | git diff | see the difference between staging area and working directory |
 | git diff --staged | see the difference between last commit and working directory |
 | git commit -a -m "your commit" | skip the staging area  ( all tracked files will be staged but untracked files not be staged ) |
