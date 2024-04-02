@@ -13,7 +13,10 @@
 | git remote add origin "githubRepositoryUrl" | add url to github repository ( you can also replace "origin" from any name ) |
 | git remote | see all the urls ( origin or any name ) |
 | git remote -v | see remote methods for push or pull |
-| git push -u origin master | push the code to you remote repository ( first time then use "git push" ) |
+| git push -u origin branchName | push the code to you remote repository's branch |
+| git push origin branchName | push branch to github |
+| git push origin localBranchName:customBranchName | push branch to github with your custom name ( not recommended ) |
+| git push -d origin branchName | delete branch in remote |
 | git push | push the changes to github repository |
 | git pull | pull the changes from github repository which is opned in your machine |
 | git log | list of all commits of repository |
@@ -45,8 +48,4 @@
 | git checkout -b branchName | create new branch |
 | git checkout branchName | switch branch |
 | git branch | see all branches in git repository |
-| git branch -v | see all branches with their last commit |
 | git merge "branchNameToMergeWith" | merge current branch with provided named branch |
-| git branch --merged | see all merged branches |
-| git branch --no-merged | see all not merged branches |
-| git branch -d branchName | delete branch ( give error if not merged replace "-d" with "-D" ) |
